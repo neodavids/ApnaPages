@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradient"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+
+
+  <LinearLayout
+      android:layout_marginTop="10dip"
+      android:id="@+id/linearLayout2"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content" android:gravity="center">
+
+
+
+    <AutoCompleteTextView
+      
+        android:id="@+id/autoCompleteTextView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="What?"/>
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_marginTop="10dip"
+      android:id="@+id/LinearLayout01"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content" android:gravity="center">
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:background="@drawable/spinnerSelector"
+        
+        
+        />
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_marginTop="10dip"
+      android:id="@+id/linearLayout3"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:gravity="right"
+      android:layout_weight="0.17" >
+
+    <Button
+        
+        android:id="@+id/btnFind"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_width="90dp"
+        android:text="@string/Find"
+        style="@style/ButtonText"
+        android:background="@drawable/ButtonStates"
+        
+        />
+
+
+  </LinearLayout>
+
+
+
+  <LinearLayout
+      android:id="@+id/linearLayout4"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+       android:background="@drawable/greybackground">
+
+    <Button
+        android:layout_marginLeft="-4dip"
+        android:layout_marginRight="-4dip"
+        android:id="@+id/btnHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:text ="@string/Home"
+        android:drawableBottom="@drawable/home"        
+        android:background="@drawable/ButtonStates" 
+         style="@style/MenuButtonText"        
+        />
+
+    <Button
+      android:layout_marginLeft="-4dip"
+        android:layout_marginRight="-4dip"
+        android:id="@+id/btnDirectory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.27"
+        android:text="@string/Directory"
+        android:drawableBottom="@drawable/suitecase"        
+        android:background="@drawable/ButtonStates" 
+        style="@style/MenuButtonText"/>
+
+    <Button
+      android:layout_marginLeft="-4dip"
+        android:layout_marginRight="-4dip"
+        android:id="@+id/btnFavorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:text="@string/Favorite"
+        android:drawableBottom="@drawable/favorite"        
+        android:background="@drawable/ButtonStates" 
+        style="@style/MenuButtonText"
+        />
+  </LinearLayout>
+
+</LinearLayout>

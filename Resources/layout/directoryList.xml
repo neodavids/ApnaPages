@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:id="@+id/widget28"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@color/white">
+
+
+>
+  <ListView
+       android:id="@+id/listView"
+       android:layout_width="fill_parent"
+       android:layout_height="404dp"
+       
+       android:layout_weight="1.30" >
+  </ListView>
+
+  <LinearLayout
+      android:id="@+id/linearLayout4"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:text="@string/Home"
+        android:drawableBottom="@drawable/home"        
+        android:background="@drawable/ButtonStates" 
+        style="@style/MenuButtonText"/>
+
+    <Button
+        android:id="@+id/btnDirectory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.27"
+        android:text="@string/Directory"
+        android:drawableBottom="@drawable/suitecase"        
+        android:background="@drawable/ButtonStates" 
+        style="@style/MenuButtonText"/>
+
+    <Button
+        android:id="@+id/btnFavorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:text="@string/Favorite"
+        android:drawableBottom="@drawable/favorite"        
+        android:background="@drawable/ButtonStates" 
+        style="@style/MenuButtonText"/>
+  </LinearLayout>
+
+</LinearLayout>

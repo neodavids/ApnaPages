@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C6EA07CD-992D-42E1-A13F-6285B37F3CBA}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ApnaPages</RootNamespace>
+    <AssemblyName>ApnaPages</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AndroidApplication>true</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <DeployExternal>False</DeployExternal>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <AndroidKeyStore>True</AndroidKeyStore>
+    <AndroidSigningKeyStore>c:\android\default.keystore</AndroidSigningKeyStore>
+    <AndroidSigningStorePass>ellabella13</AndroidSigningStorePass>
+    <AndroidSigningKeyAlias>appnapages</AndroidSigningKeyAlias>
+    <AndroidSigningKeyPass>ellabella13</AndroidSigningKeyPass>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
+    <AndroidLinkMode>None</AndroidLinkMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
+    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLL\Business.cs" />
+    <Compile Include="BLL\BusinessListings.cs" />
+    <Compile Include="CategoryActivity.cs" />
+    <Compile Include="CategoryListAdapter.cs" />
+    <Compile Include="BLL\Category.cs" />
+    <Compile Include="DetailsActivity.cs" />
+    <Compile Include="DirectoryActivity.cs" />
+    <Compile Include="DirectoryListAdapter.cs" />
+    <Compile Include="HomeActivity.cs" />
+    <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SplashActivity.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+    <AndroidResource Include="Resources\drawable-hdpi\call_icon.png" />
+    <AndroidResource Include="Resources\Values\styles.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable-hdpi\spinnerSelector.xml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-mdpi\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-ldpi\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\categoryList.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\categoryListItem.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\main.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Values\strings.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\BusinessListings.xml">
+      <SubType>Designer</SubType>
+    </AndroidAsset>
+    <Content Include="Properties\AndroidManifest.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <AndroidResource Include="Resources\layout\directoryListItem.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable-mdpi\gradient.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\directoryList.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\AutoComplete_list_item.xml" />
+    <AndroidResource Include="Resources\layout\details.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable-hdpi\rightarrow.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\btn_orange_matte.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ButtonStates.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\btn_blue_matte.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\btn_pink_matte.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\btn_red_matte.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\btn_black.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\home.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\favorite.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\suitecase.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\spinnernormal.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\spinnerpressed.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\spinner_normal.9.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\OrangeButtonStates.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\greygrainy.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\greybackground.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\sym_action_call.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\btn_star_big_on_selected.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\splash.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\btn_green_matte.9.png" />
+    <AndroidResource Include="Resources\Values\color.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+     Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="ApnaPages">Apna Pages</string>
+  <string name="Find">Find</string>
+  <string name="app_name">Apna Pages]</string>
+  <string name="Location">Location</string>
+
+  <string name="Home">Home</string>
+  <string name="Directory">Directory</string>
+  <string name="Favorite">Favorite</string>
+
+  <string name="Call">Call</string>
+  <string name="SMS">SMS</string>
+  <string name="Share">Share</string>
+  <string name="Map">Map</string>
+
+  <string name="shareBySMS">Share By SMS</string>
+  <string name="shareByEmail">Share By Email</string>
+  <string name="shareByCancel">Cancel</string>
+  <string name="AddToFavorites">Add to Favorites</string>
+  <string name="Add">Add</string>
+  <string name="Del">Del</string>
+  
+
+  <string-array name="shareDialogList">
+    <item>By SMS</item>
+    <item>By Email</item>
+    <item>Cancel</item>    
+  </string-array>
+
+  <string-array name="locations_array">
+    <item>Current Location</item>
+    <item>Vancouver</item>   
+  </string-array>
+  <string-array name="businessNames">
+
+    <item>Accountants</item>
+    <item>Accupressure</item>
+    <item>Animal Hospital</item>
+    <item>Appliances</item>
+    <item>Astrology</item>
+    <item>Auto Body</item>
+    <item>Auto Dealership</item>
+    <item>Auto Electric</item>
+    <item>Auto Glass</item>
+    <item>Auto Lubricant</item>
+    <item>Auto Parts</item>
+    <item>Auto Radiator</item>
+    <item>Auto Rental</item>
+    <item>Auto Repair</item>
+    <item>Auto Sales</item>
+    <item>Auto Tires</item>
+    <item>Automobile</item>
+    <item>Bakery</item>
+    <item>Banquet Hall</item>
+    <item>Bhangra Groups</item>
+    <item>Bottle Depot</item>
+    <item>Builders</item>
+    <item>Building Supplies</item>
+    <item>Cabinets</item>
+    <item>Carpet Cleaning</item>
+    <item>Carpet Sales</item>
+    <item>Catering</item>
+    <item>Chiropractor</item>
+    <item>Communications</item>
+    <item>Computer Repair</item>
+    <item>Computers</item>
+    <item>Concrete</item>
+    <item>Construction</item>
+    <item>Copy Center</item>
+    <item>Counselling</item>
+    <item>Counter Tops</item>
+    <item>Damp Roofing</item>
+    <item>Dance School</item>
+    <item>Decorations</item>
+    <item>Decore</item>
+    <item>Dentist</item>
+    <item>Disposal</item>
+    <item>DJ</item>
+    <item>Doctor</item>
+    <item>Doors</item>
+    <item>Drapery</item>
+    <item>Driving School</item>
+    <item>Drycleaners</item>
+    <item>Drywall</item>
+    <item>Education</item>
+    <item>Electrical</item>
+    <item>Electronics</item>
+    <item>Environmental</item>
+    <item>Excavating</item>
+    <item>Fabric</item>
+    <item>Fashion</item>
+    <item>Fencing</item>
+    <item>Finance</item>
+    <item>Finishing</item>
+    <item>Fire Protection</item>
+    <item>Fireplace</item>
+    <item>Fitness Centre</item>
+    <item>Flooring</item>
+    <item>Florist</item>
+    <item>Flowers</item>
+    <item>Form Rentals</item>
+    <item>Framing</item>
+    <item>Furnace Cleaning</item>
+    <item>Furniture</item>
+    <item>Garage Doors</item>
+    <item>Garbage Disposal</item>
+    <item>Giftware</item>
+    <item>Glass</item>
+    <item>Grocery</item>
+    <item>Health Food Products</item>
+    <item>Heating</item>
+    <item>Home Design</item>
+    <item>Home Inspection</item>
+    <item>Homeopathic</item>
+    <item>Immigration</item>
+    <item>Insulation</item>
+    <item>Insurance</item>
+    <item>Interior Designer</item>
+    <item>Investment</item>
+    <item>Jewellers</item>
+    <item>Landscaping</item>
+    <item>Laser</item>
+    <item>Laundry</item>
+    <item>Lawyer</item>
+    <item>Lighting</item>
+    <item>Makeup Artist</item>
+    <item>Masonary</item>
+    <item>Meat</item>
+    <item>Mobile</item>
+    <item>Money Exchange</item>
+    <item>Mortgage</item>
+    <item>Movers</item>
+    <item>Music Groups</item>
+    <item>Notary Public</item>
+    <item>Nursery</item>
+    <item>Optical</item>
+    <item>Opticians</item>
+    <item>Optometrist</item>
+    <item>Painting</item>
+    <item>Party Rentals</item>
+    <item>Paving</item>
+    <item>Pest Control</item>
+    <item>Pharmacy</item>
+    <item>Photography</item>
+    <item>Pizza</item>
+    <item>Plumbing</item>
+    <item>Printers</item>
+    <item>Railing</item>
+    <item>Real Estate</item>
+    <item>Renovation</item>
+    <item>Restaurant</item>
+    <item>Retail Store</item>
+    <item>Roofing</item>
+    <item>Schools</item>
+    <item>Security</item>
+    <item>Senior Citizen Society</item>
+    <item>Siding</item>
+    <item>Signs</item>
+    <item>Sportswear</item>
+    <item>Sprinkler</item>
+    <item>Stones</item>
+    <item>Stucco</item>
+    <item>Surveyor</item>
+    <item>Sweet shop</item>
+    <item>Tailors</item>
+    <item>Tent Rental</item>
+    <item>Tile Sales</item>
+    <item>Tiles</item>
+    <item>Tool Rentals</item>
+    <item>Towing</item>
+    <item>Travel</item>
+    <item>Tree Service</item>
+    <item>Truck Repair</item>
+    <item>TV Repair</item>
+    <item>Vacuum</item>
+    <item>Video Store</item>
+    <item>water</item>
+    <item>Wedding</item>
+    <item>Wedding Planner</item>
+    <item>Windows</item>
+    <item>Woodworking</item>
+  </string-array>
+
+ 
+</resources>
+
+

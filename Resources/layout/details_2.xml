@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/greybackground"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+  
+  <LinearLayout
+      android:id="@+id/linearLayout1"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content" >
+  
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Tim Hortons - Toronto"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    
+  </LinearLayout>
+
+  <LinearLayout
+      android:id="@+id/linearLayout5"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content" >
+
+    <Button
+     android:id="@+id/btnAddToFavorites"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text="@string/AddToFavorites"
+     style="@style/ButtonTextSmall"
+     android:gravity="right"
+     android:background="@drawable/btn_blue_matte"/>
+
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:id="@+id/LinearLayout01"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/textAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=".3"
+        android:text="50 Bloor St W"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+  </LinearLayout>
+
+  <LinearLayout
+      android:id="@+id/LinearLayout01"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/textCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=".3"
+        android:text="Toronto, On, M4W3L8"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
+  </LinearLayout>
+
+  <LinearLayout
+      android:id="@+id/LinearLayout01"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/textWebsite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=".3"
+        android:text="www.msn.com"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:autoLink="web"
+         />
+  </LinearLayout>
+  <LinearLayout
+      android:id="@+id/linearLayout4"
+      android:layout_width="fill_parent"
+      android:paddingTop="30dip"
+      android:layout_height="wrap_content" >
+
+
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="wrap_content"
+        android:layout_height="92dp"
+        android:layout_weight="0.25"
+        android:text="@string/Call"
+        style="@style/ButtonText"
+        android:background="@drawable/btn_orange_matte"/>
+
+    <Button
+        android:id="@+id/btnSMS"
+        android:layout_height="92dp"
+        android:layout_width="wrap_content"        
+        android:layout_weight="0.25"
+        android:text="@string/SMS"
+        style="@style/ButtonText"
+        android:background="@drawable/btn_orange_matte"/>
+
+  </LinearLayout>
+
+
+  <LinearLayout
+      android:id="@+id/linearLayout3"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="0.10"
+      android:gravity="right" >
+
+    <Button
+        android:id="@+id/btnMap"
+        android:layout_width="wrap_content"
+        android:layout_height="92dp"       
+        android:layout_weight="0.27"
+        android:text="@string/Map"
+        style="@style/ButtonText"
+        android:background="@drawable/btn_orange_matte"/>
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_height="92dp"
+        android:layout_width="wrap_content"        
+        android:layout_weight="0.25"
+        android:text="@string/Share"
+        style="@style/ButtonText"
+        android:background="@drawable/btn_orange_matte"/>
+
+  </LinearLayout>
+
+
+
+  <LinearLayout
+      android:id="@+id/linearLayout4"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:text="@string/Home"
+        android:drawableBottom="@drawable/home"
+        android:background="@drawable/ButtonStates"
+        style="@style/MenuButtonText"/>
+
+    <Button
+        android:id="@+id/btnDirectory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.27"
+        android:text="@string/Directory"
+        android:drawableBottom="@drawable/suitecase"
+        android:background="@drawable/ButtonStates"
+        style="@style/MenuButtonText"/>
+
+    <Button
+        android:id="@+id/btnFavorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:text="@string/Favorite"
+        android:drawableBottom="@drawable/favorite"
+        android:background="@drawable/ButtonStates"
+        style="@style/MenuButtonText"/>
+  </LinearLayout>
+
+</LinearLayout>
